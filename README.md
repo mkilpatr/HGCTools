@@ -13,6 +13,7 @@ cmsenv
 ```
 
 ##How to run the plotting methods
+
 ```
 cd HGCStudies
 python3 ThermalCyclePlotter.py -d <Location where file is stored> -t Deformation
@@ -21,6 +22,7 @@ python3 plot_summary.py <location where json file is including filename> -l <lab
 ```
 
 ##How to run the Module tolerances
+
 The module tolerances are set to run the full 2D simulation on Condor on the FNAL LPC cluster. Some changes can certainly be made to get it to work on POD. The following will split the desired testing parameters into different jobs and run them in parallel.
 ```
 ./process.py -p . -m ModuleStudies.C -o ModuleTolerances_300K_31Jan21_baseplateCenters_Full -l . -b diffTolerances.conf
