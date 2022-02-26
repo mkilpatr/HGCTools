@@ -12,7 +12,7 @@ cd CMSSW_10_2_22/src/
 cmsenv
 ```
 
-##How to run the plotting methods
+## How to run the plotting methods
 
 ```
 cd HGCStudies
@@ -21,7 +21,7 @@ cd ../hexmap
 python3 plot_summary.py <location where json file is including filename> -l <label you would like on the plot> -p <Test Type>
 ```
 
-##How to run the Module tolerances
+## How to run the Module tolerances
 
 The module tolerances are set to run the full 2D simulation on Condor on the FNAL LPC cluster. Some changes can certainly be made to get it to work on POD. The following will split the desired testing parameters into different jobs and run them in parallel.
 ```
