@@ -35,3 +35,9 @@ root -l
 .L ModuleStudies.C+
 ModuleAnalysis("ModuleTolerances_300K_31Jan21_baseplateCenters_Full")
 ```
+
+## Fiducials QC
+The fiducials QC is a Jupyter notebook that takes in the excel files from the OGP and computes the average height with max/min values, the center placement of the components and the rotations. You will need to go to the location on the PC and run:
+```
+jupyter notebook
+```
