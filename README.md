@@ -14,7 +14,7 @@ cmsenv
 
 ## Get code
 ```
-git clone 
+git clone git@github.com:mkilpatr/HGCTools.git
 git submodule init
 git submodule update --recusive
 ```
