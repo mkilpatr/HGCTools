@@ -12,6 +12,13 @@ cd CMSSW_10_2_22/src/
 cmsenv
 ```
 
+## Get code
+```
+git clone 
+git submodule init
+git submodule update --recusive
+```
+
 ## How to run the plotting methods
 
 ```
